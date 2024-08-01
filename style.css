@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+  }
+  
+  #app {
+    display: flex;
+    width: 100%;
+  }
+  
+  #sidebar {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #album-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #album-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #album-list li:hover {
+    background-color: #ddd;
+  }
+  
+  #content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  #album-details img {
+    max-width: 300px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
